@@ -1,0 +1,7 @@
+chicken_legs = 2
+cow_legs = 4
+pig_legs = 4
+chicken = int(input('Enter the number of chickens: '))
+cow = int(input('Enter the number of cows: '))
+pig = int(input('Enter the number of pigs: '))
+print('Number of legs of chickens: {}, cows: {}, pigs: {}.'.format(chicken * chicken_legs, cow * cow_legs, pig * pig_legs))
