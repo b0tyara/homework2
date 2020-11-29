@@ -1,0 +1,3 @@
+cups = int(input('Кол-во чашек: '))
+bonus = int(cups/6)
+print(bonus)
