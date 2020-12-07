@@ -1,0 +1,17 @@
+import random
+tries = 0
+number = random.randint(1, 50)
+while tries < 7:
+    a = int(input('Your number: '))
+    tries += 1
+    if a != number and a > number:
+        print(f'{a} > hidden number')
+    if a != number and a < number:
+        print(f'{a} < hidden number')
+    if a == number:
+        print('You guessed the number!')
+        break
+    if tries == 7 and a != number:
+        print(f'The hidden number is {number}.\nYou lose! Try again.')
+        break
+   
