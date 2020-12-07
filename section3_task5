@@ -1,0 +1,6 @@
+first_list = [1,2,3,4,5]
+second_list = [6,7,8,9,10]
+list1 = [l for l in first_list if l % 2 == 1]
+list2 = [l for l in second_list if l % 2 == 0]
+joined_list = list1 + list2
+print(joined_list)
