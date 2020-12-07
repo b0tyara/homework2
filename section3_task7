@@ -1,0 +1,7 @@
+table_cards = ["A_S", "J_H", "7_D", "8_D", "10_D"]
+hand_cards =  ["J_D", "3_D"]
+cards = [x[-1] for x in table_cards+hand_cards]
+if cards.count("D") >=5 or cards.count("H") >=5 or cards.count("K") >=5 or cards.count("S") >=5:
+     print("Flush!")
+else:
+     print("No Flush!")
