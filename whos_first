@@ -1,0 +1,17 @@
+def whos_first(p1, p2):
+
+    P1 = p1.rstrip()
+
+    P2 = p2.rstrip()
+
+    if P1 > P2:
+
+        return 'p1'
+
+    elif P1 < P2:
+
+        return 'p2'
+
+    else:
+
+        return 'tie'
